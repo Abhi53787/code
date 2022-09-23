@@ -1,0 +1,71 @@
+class Hello{
+
+     
+
+      int num1;
+
+        int num2; 
+
+        int num3 = num1+num2;  
+
+        
+
+        
+
+            
+
+            
+
+        
+
+        
+
+        public Hello( int n){ 
+
+            num1=n;
+
+            num2=n; 
+
+            num3=num1+num2;
+
+            
+
+            
+
+        }
+
+        
+
+        
+
+        
+
+            
+
+        
+
+        
+
+        
+
+    public static void main(String[] args) {
+
+        System.out.println("Me the who write this code ! ");  
+
+        
+
+   
+
+        
+
+        Hello obj = new Hello(8); 
+
+        System.out.println(obj.num3);
+
+        
+
+       
+
+    }
+
+}
