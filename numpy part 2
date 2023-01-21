@@ -1,0 +1,42 @@
+import numpy as np
+a=np.array([(1,2,3,4),(5,8,9,6)])
+print(np.sqrt(a))
+b=np.array([(5,9,6,4),(5,9,6,4)])
+print("\n the standard deviation is \n")
+print(np.std(a))
+
+print("matrix operations\n")
+print(a+b)
+print("sub\n")
+print(a-b)
+print("vertically matrix of both\n")
+print(np.vstack((a,b)))
+print("horizontzl matrix\n")
+print(np.hstack((a,b)))
+print("to combine the both multi dimn arrat to one")
+print(np.ravel((a,b)))
+
+import matplotlib.pyplot as plt
+print("plotting with sin\n")
+x=np.arange(0,3*np.pi,0.1)
+y=np.sin(x)
+plt.xlabel("x=axis")
+plt.ylabel("y=axis")
+plt.plot(x,y)
+plt.show()
+
+print("plotting with cos\n")
+
+j=np.arange(1,9)
+plt.xlabel("x-axis")
+plt.ylabel("y-axis")
+e=np.sin(j)
+plt.plot(j,e)
+plt.show()
+
+print("Expotential and log values using numpy\n")
+print(np.log(56))
+print(np.exp(4))
+print(np.log10(56))
+
+
