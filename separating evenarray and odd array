@@ -1,0 +1,14 @@
+array=[]
+evenarr=[]
+oddarr=[]
+n=int(input("Enter the size of the array"))
+for i in range(0,n):
+    nu=int(input("Enter the number into the  {} array".format(i)))
+    array.append(nu)
+    if(i%2==0):
+        evenarr.append(array[i])
+    else:
+        oddarr.append(array[i])
+
+print("Even array is ",sorted(evenarr))
+print("Odd array is",sorted(oddarr))
