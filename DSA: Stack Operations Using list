@@ -1,0 +1,26 @@
+stack=[]
+def push():
+    a=input("Enter a number to push to stack")
+    stack.append(a)
+    print(stack)
+
+def pop():
+    if not stack:
+        print("Stack is empty")
+    else:
+        b=stack.pop()
+        print("Removed element",b)
+        print(stack)
+
+while True:
+    choice=int(input("Enter a number 1.push or 2. pop or 3.quit\n"))
+    if choice==1:
+        push()
+    elif choice==2:
+        pop()
+    elif choice==3:
+        print("Final stack is ",stack)
+        break
+
+
+
