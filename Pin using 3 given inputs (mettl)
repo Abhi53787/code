@@ -1,0 +1,22 @@
+a=190
+b=267
+c=853
+d=[] #ones
+e=[] #tens
+f=[] #thousz
+d.append(a%10)
+d.append(b%10)
+d.append(c%10)
+e.append((a//10)%10)
+e.append((b//10)%10)
+e.append((c//10)%10)
+f.append(a//100)
+f.append(b//100)
+f.append(c//100)
+o=[]
+o.append(str(max(d+e+f)))
+o.append(str(min(f)))
+o.append(str(min(e)))
+o.append(str(min(d)))
+print(o)
+print(''.join(o))
