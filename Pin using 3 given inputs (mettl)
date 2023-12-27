@@ -1,3 +1,48 @@
+pCreate PIN using three given input numbers
+
+"Secure Assets Private Ltd", a small company that deals with lockers has recently started manufacturing digital locks which can be locked and unlocked using PINS (passwords), You have been asked to work on the module that is expected to generate PINs using three input numbers.
+
+Assumptions: The three given input numbers will always consist of three digits each ie, each of them will be in the
+
+range >=100 and <-999
+
+100 <= input1 <=999
+
+100 <= input2 <=999
+
+100 <= input3 <=999
+Below are the rules for generating the PIN-
+
+-The PIN should be made up of 4 digits
+
+The unit (ones) position of the PIN should be the least of the units position of the three input numbers
+
+The tens position of the PIN should be be the the least of of t the tens position of the three input numbers
+
+The hundreds position the PIN should be the least of the hundreds position of the three input nümbers
+
+-The thousands position of the PIN should should be the maximum of all the digits in the three input numbers
+
+Example 1-
+
+input1129
+
+Input2582
+
+Input3 175
+
+then. PIN 8122
+
+Example 2-
+
+input1 = 190
+
+input2 = 267
+
+input3 = 853
+
+then, PIN9150
+
 a=190
 b=267
 c=853
