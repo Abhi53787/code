@@ -1,4 +1,4 @@
-pCreate PIN using three given input numbers
+create PIN using three given input numbers
 
 "Secure Assets Private Ltd", a small company that deals with lockers has recently started manufacturing digital locks which can be locked and unlocked using PINS (passwords), You have been asked to work on the module that is expected to generate PINs using three input numbers.
 
