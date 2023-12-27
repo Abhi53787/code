@@ -1,0 +1,12 @@
+b=123
+print(b%10) #finds ones
+print((b//10)%10) # finds tens
+print(b//100) # finds hundreds
+
+
+
+
+
+a=[1,2,3]
+b=[4,5,6]
+print(max(a+b))
