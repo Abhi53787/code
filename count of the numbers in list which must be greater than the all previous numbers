@@ -1,5 +1,7 @@
 # finding the count of the numbers in list which must be greater than the all previous numbers
-a=[1,1,2,2,3]
+a=[7,4,9,6,8]
+b=max(a)
+
 c=0
 if a[0]>a[1]:
     c=1
@@ -9,8 +11,12 @@ else:
 
 
 for i in range(len(a)-1):
+    if a[i]==b:
+        break
+    
     if a[i+1] >a[i]:
         c+=1
+        
 print(c)
         
 
