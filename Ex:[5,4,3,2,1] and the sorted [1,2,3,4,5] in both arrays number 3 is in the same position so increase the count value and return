@@ -1,0 +1,12 @@
+given an array and check that sorted array and print the count of numbers whose position is same in original array and sorted array,
+Ex:[5,4,3,2,1] and the sorted [1,2,3,4,5] in both arrays number 3 is in the same position so increase the count value and return 
+
+
+l=[5,4,3,2,1]
+a=sorted(l)
+c=0
+for i in range(len(l)):
+    for j in range(len(a)):
+        if l[i]==a[j] and i==j:
+            c+=1
+print(c)
