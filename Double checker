@@ -8,4 +8,3 @@ if all(i in n1 for i in m1):
     print("Yes the number and it's double have same no.of digits")
 else:
     print("False")
-
