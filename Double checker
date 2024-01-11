@@ -1,0 +1,10 @@
+n=int(input("Enter a number\n"))
+m=n*2
+n1=str(n)
+n1=sorted(list(n1))
+m1=str(m)
+m1=sorted(list(m1))
+if all(i in n1 for i in m1):
+    print("Yes the number and it's double have same no.of digits")
+else:
+    print("False")
