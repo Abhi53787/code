@@ -1,0 +1,37 @@
+'''
+cus=2
+id =618
+name=rahul
+quan=2
+jeans=5000
+shirt=8000
+id=121
+name=karan
+quan=1
+shoes=2000
+'''
+n=int(input("No of customers "))
+bill=0
+for i in range(n):
+    id=int(input("Enter id of the customer "))
+    name= input("Enter the name of the customer ")
+    quan=int(input("No.of quantity purchased "))
+    for i in range(quan):
+
+        br=input("name of the product ")
+        price=int(input("price of the product "))
+        bill+=price
+    if bill<=10000:
+        print("ID:",id)
+        print("NAME:", name)
+
+        print("Total Bill *incl gst=0% ",bill)
+    elif (bill>10000 and bill<=50000):
+        print("ID:", id)
+        print("NAME:", name)
+        print("Total Bill *incl gst ",bill+(bill*(5/100)))
+    else:
+        print("ID:", id)
+        print("NAME:", name)
+        print("Total Bill *incl gst ",bill + (bill * (9 / 100)))
+    bill=0
